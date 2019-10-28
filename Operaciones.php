@@ -126,14 +126,7 @@ if(isset($_POST["calcular"])){
 }
 
 function fdx($ec,$it){
-  global $ecuacion;
-  global $interA;
-  $A = $it;
-  $reemplazo = str_replace ( "x" , $A , $ec );
-  #echo "Reemplazando " . $A . " en " . $ec . " = " . $reemplazo . "<br>" ;
-  #echo "f(x)=" ;
-  eval('$re = '.$reemplazo.';');
-  #$re = eval($reemplazo.';');
+  #code ...
   return $re;
 }
  ?>
